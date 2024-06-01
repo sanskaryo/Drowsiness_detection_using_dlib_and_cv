@@ -53,3 +53,5 @@ Alert Mechanism:
 
 When the eyes remain closed for a certain number of frames, the system triggers an alert sound to wake up the user.
 Detects yawning based on the distance between the upper and lower lips.
+
+
