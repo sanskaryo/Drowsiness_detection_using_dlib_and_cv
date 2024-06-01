@@ -28,21 +28,18 @@ A real-time drowsiness detection system using computer vision, OpenCV, and other
 
 
 
-Usage
-Download the pre-trained shape predictor:
+### Download the Pre-trained Shape Predictor:
 
-Download the shape predictor and extract the .dat file.
-Place the shape_predictor_68_face_landmarks.dat file in the project directory.
-Run the drowsiness detection script:
+1. **Download the shape predictor and extract the .dat file.**
+2. **Place the `shape_predictor_68_face_landmarks.dat` file in the project directory.**
 
-sh
-Copy code
+### Run the Drowsiness Detection Script:
+
+```sh
 python drowsiness_detection.py --webcam 0
-Instructions:
 
-Ensure your webcam is properly connected.
-The script will start the webcam feed and begin detecting drowsiness.
-When drowsiness is detected, an alert sound will be played.
+## Usage
+
 How It Works
 Facial Landmark Detection:
 
