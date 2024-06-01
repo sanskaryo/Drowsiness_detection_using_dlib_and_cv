@@ -25,3 +25,34 @@ A real-time drowsiness detection system using computer vision, OpenCV, and other
    ```sh
    git clone git@github.com:sanskaryo/Drowsiness_detection_using_dlib_and_cv.git
    cd drowsiness-detection-system
+
+
+
+Usage
+Download the pre-trained shape predictor:
+
+Download the shape predictor and extract the .dat file.
+Place the shape_predictor_68_face_landmarks.dat file in the project directory.
+Run the drowsiness detection script:
+
+sh
+Copy code
+python drowsiness_detection.py --webcam 0
+Instructions:
+
+Ensure your webcam is properly connected.
+The script will start the webcam feed and begin detecting drowsiness.
+When drowsiness is detected, an alert sound will be played.
+How It Works
+Facial Landmark Detection:
+
+Uses dlib’s pre-trained shape predictor model to detect facial landmarks.
+The landmarks around the eyes are used to compute the Eye Aspect Ratio (EAR).
+Eye Aspect Ratio (EAR):
+
+The EAR is calculated based on the distances between the vertical eye landmarks and the horizontal eye landmarks.
+When the EAR falls below a certain threshold, it indicates that the eyes are closed.
+Alert Mechanism:
+
+When the eyes remain closed for a certain number of frames, the system triggers an alert sound to wake up the user.
+Detects yawning based on the distance between the upper and lower lips.
