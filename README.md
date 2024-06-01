@@ -23,5 +23,5 @@ A real-time drowsiness detection system using computer vision, OpenCV, and other
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/drowsiness-detection-system.git
+   git clone git@github.com:sanskaryo/Drowsiness_detection_using_dlib_and_cv.git
    cd drowsiness-detection-system
