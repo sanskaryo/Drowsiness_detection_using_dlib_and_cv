@@ -17,9 +17,10 @@ A real-time drowsiness detection system using computer vision, OpenCV, and other
 3. **Yawning Detection**: Measures the distance between upper and lower lips to detect yawning, another indicator of drowsiness.
 4. **Alert Mechanism**: When drowsiness or yawning is detected for a certain duration, the system triggers an alert sound to wake up the user.
 
-## Screenshot
+## Working images
 
 ![Drowsiness Detection Alert](https://github.com/sanskaryo/Drowsiness_detection_using_dlib_and_cv/blob/main/images/WhatsApp%20Image%202024-06-29%20at%2016.21.34_cd625042.jpg)
+![Drowsiness Detection Alert](https://github.com/sanskaryo/Drowsiness_detection_using_dlib_and_cv/blob/main/images/WhatsApp%20Image%202024-06-29%20at%2016.25.00_30454b32.jpg)
 
 ## Requirements
 
